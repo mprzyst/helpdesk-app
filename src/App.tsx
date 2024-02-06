@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "./App.css"
 import LogInPage from "./pages/LogInPage"
+import DashboardPage from "./pages/DashboardPage"
 
 function App() {
   return (
-    <div className="App">
-      <LogInPage/>
+    <div className="flex">
+      <DashboardPage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
