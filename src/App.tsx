@@ -5,7 +5,7 @@ import DashboardPage from "./pages/DashboardPage"
 
 function App() {
   return (
-    <div className="flex">
+    <div className="w-full h-screen">
       <DashboardPage />
     </div>
   )

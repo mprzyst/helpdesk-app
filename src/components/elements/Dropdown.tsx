@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { Menu } from "@headlessui/react"
-import { Option } from "../pages/DashboardPage"
+import { Option } from "../../pages/DashboardPage"
 
 export default function Dropdown({
   options,
