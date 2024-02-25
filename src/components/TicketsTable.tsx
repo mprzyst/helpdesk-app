@@ -2,9 +2,9 @@ import { Attributes, ClassAttributes } from "react"
 
 export default function TicketsTable() {
   return (
-    <div className="basis-4/5 bg-gray-100">
+    <div className="w-screen md:w-auto bg-gray-100">
       <h2>Tickets</h2>
-      <div className="border rounded-xl p-4 m-4">
+      <div className="border rounded-xl p-4 m-4 overflow-x-auto">
         <table>
           <thead>
             <tr className="border-b">
